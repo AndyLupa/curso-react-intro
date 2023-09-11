@@ -17,7 +17,7 @@ const defaultToDos = [
 
 
 function App() {
-console.log("first")
+console.log("second")
   const[searchValue, setSearchValue]=React.useState('');
   const[todo,setTodo]=React.useState(defaultToDos);
 
